@@ -57,14 +57,17 @@ a:hover {
   margin-bottom: 0px;
 }
 
-.card-content .card-item:last-child {
-  border-radius: 0 0 12px 12px;
-  border-bottom: none;
-}
-
 .card-item-content {
   padding-bottom: 12px;
   border-bottom: 1px solid #dadada;
+}
+
+.card-content .card-item:last-child {
+  border-radius: 0 0 12px 12px;
+}
+
+.card-content .card-item:last-child .card-item-content {
+  border-bottom: none;
 }
 
 .card-item-header {
